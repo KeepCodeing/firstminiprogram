@@ -1,0 +1,22 @@
+<view class="min-h-screen bg-gray-50 py-5 px-3 box-border font-mono">
+    <view class="text-center">
+        <view><text class="text-xs text-blue-500 font-bold">News Post</text></view>
+        <view><text class="text-lg font-bold">Check our latest news we are here!</text></view>
+        <view style="line-height: 17px"><text class="text-gray-400 font-thin text-xs">Activate one page navigation on any page throughout your with the selection and your site.</text></view>
+    </view>
+    <view>
+        <view class="bg-white my-6 mx-1 rounded shadow-lg" wx:for="{{news}}" wx:key="*item">
+            <view style="height: 220px;">
+                <image
+                        class="h-full w-full"
+                        src="{{item.img}}"></image>
+            </view>
+            <view class="p-3">
+                <view><text class="text-xs text-blue-500 font-bold">{{item.date}}</text></view>
+                <view><text class="font-bold text-lg">{{item.title}}</text></view>
+                <view style="line-height: 16px;"><text class="text-gray-300 text-xs font-light">{{item.info}}</text></view>
+                <view><text class="font-bold text-xs text-blue-500">Read More</text></view>
+            </view>
+        </view>
+    </view>
+</view>

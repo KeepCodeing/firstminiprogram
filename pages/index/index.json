@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "company-introduction": "/Component/index_components/company_introduction/CompanyIntroduction",
+    "contact-introduction": "/Component/index_components/contact_introduction/ContactIntroduction",
+    "services-introduction": "/Component/index_components/services_introduction/ServicesIntroduction",
+    "customers-mark": "/Component/index_components/customers_mark/CustomersMark",
+    "projects-show": "/Component/index_components/projects_show/ProjectsShow",
+    "buy-services": "/Component/index_components/buy_services/BuyServices",
+    "news-show": "/Component/index_components/news_show/NewsShow"
+  }
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a4f358c-20be-42d7-a824-39795bb3889f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Wechat mini program component js file" />
+        <option value="Wechat mini program component json file" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sZH31VAQS46UJjqpZ2ywH7616S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WXMiniProgram\Component\index_components\company_introduction" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WXMiniProgram\images" />
+      <recent name="F:\WXMiniProgram\images\icons" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a4f358c-20be-42d7-a824-39795bb3889f" name="Default Changelist" comment="" />
+      <created>1621072988212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621072988212</updated>
+      <workItem from="1621072989896" duration="1683000" />
+      <workItem from="1621137186867" duration="3606000" />
+      <workItem from="1621211931682" duration="14448000" />
+      <workItem from="1621331261618" duration="1768000" />
+      <workItem from="1621383554202" duration="7143000" />
+      <workItem from="1621415430412" duration="6616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="107" key="#Notifications" timestamp="1621212542779">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="361" y="107" key="#Notifications/0.30.1536.834@0.30.1536.834" timestamp="1621212542779" />
+    <state x="425" y="102" width="670" height="676" key="search.everywhere.popup" timestamp="1621418205905">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="425" y="102" width="670" height="676" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1621418205905" />
+  </component>
+</project>

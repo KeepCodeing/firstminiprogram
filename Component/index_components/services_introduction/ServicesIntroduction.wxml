@@ -1,0 +1,38 @@
+<view class="h-screen bg-blue-50 py-2">
+    <view class="h-1on4 text-center font-mono">
+        <view class="text-blue-500 font-bold"><text>Our Services</text></view>
+        <view class="font-bold text-lg"><text> Exclusive services for the next</text></view>
+        <view class="font-bold text-lg"><text> honourable customer</text></view>
+        <view class="font-thin text-gray-400 text-xs">
+            <text>Activate one page navigation on any page throughout your with the selection and your site.</text>
+        </view>
+    </view>
+    <view class="h-3on4 text-2xl text-center font-mono font-bold flex items-center">
+        <swiper
+                indicator-dots="{{swiper_config.indicatorDots}}"
+                indicator-color="{{swiper_config.indicaorColor}}"
+                indicator-active-color="{{swiper_config.indicatorActiveColor}}"
+                autoplay="{{swiper_config.autoplay}}"
+                interval="{{swiper_config.interval}}"
+                duration="{{swiper_config.duration}}"
+                current="{{swiper_config.current}}"
+                interval="{{swiper_config.interval}}"
+                duration="{{swiper_config.duration}}"
+                class="w-full h-4on5"
+        >
+            <block wx:for="{{swiper_config.swiper_info}}" wx:key="*this">
+                <swiper-item class="flex items-center justify-items-center">
+                    <view class="w-full h-full p-3">
+                        <view class="w-full h-full bg-white shadow-xl rounded">
+                            <view class="h-1on4 flex justify-center items-center">
+                                <image src="{{item.icon}}" style="width: 35px; height: 35px;"/>
+                            </view>
+                            <view class="h-1on4"><text>{{item.title}}</text></view>
+                            <view class="text-xs text-gray-400 p-2 font-thin"><text>{{item.text}}</text></view>
+                        </view>
+                    </view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+</view>

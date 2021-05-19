@@ -1,0 +1,28 @@
+<view class="min-h-screen bg-white">
+    <view class="h-2on5 bg-green-50 bg-cover"
+          style="background: url('../../../images/header-right-img.png');background-size: contain;background-repeat: no-repeat;background-position: center;height:200px;"
+    >
+    </view>
+    <view class="h-3on6 text-2xl p-5 text-center font-mono font-bold">
+        <view>
+            <text>Esto is </text><text class="text-blue-500">diffrent</text>
+        </view>
+        <view>
+            <text>creative agency.</text>
+        </view>
+        <view class="text-xs font-thin text-gray-400">
+            <text>Better off than with most other themes since options are right from within the making super easy to configure your site compared to most of the surprised simple from anything from streamlined.</text>
+        </view>
+        <view class="mt-7 text-lg font-thin text-white">
+            <button class="bg-blue-500 p-2">See Services</button>
+        </view>
+
+    </view>
+    <view
+        class="bg-gray-100 p-2"
+        style="height: 70px;"
+    >
+        <view
+                style="background: url('../../../images/brand-logo4.png');background-size: contain;background-repeat: no-repeat;background-position: center;height:70px;"></view>
+    </view>
+</view>

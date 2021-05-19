@@ -1,0 +1,31 @@
+<view class="min-h-screen bg-white py-5 px-3 box-border font-mono">
+    <view class="text-left">
+        <view><text class="text-blue-500 text-sm font-bold">Price & plan</text></view>
+        <view><text class="font-bold">Get started with awesome price & planning table.</text></view>
+        <view style="line-height: 17px;"><text class="text-xs font-thin text-gray-400">Activate one page navigation on any page throughout your with the selection one simple option in the admin area. Doing this you can create anything homepages engaging.</text></view>
+        <view><button class="bg-blue-500 mt-4 text-white p-2" style="margin-left: 0">Know More Details</button></view>
+    </view>
+    <view class="flex mt-3 items-center justify-items-center">
+        <view class="w-full h-full">
+            <view class="p-3 my-5 bg-white shadow-xl rounded" wx:for="{{services}}">
+                <view class="text-blue-500 font-bold text-lg flex">
+                    <view class="w-3on4"><text>{{item.title}}</text></view>
+                    <view class="w-1on4 text-right">
+                        <image src="{{item.icon}}" style="height: 20px; width: 20px;"></image>
+                    </view>
+                </view>
+                <view class="text-xs text-gray-400 font-thin">
+                    <text class="text-xl text-black">{{item.cost}}</text>
+                    <text class="text-sm text-gray-400">/{{item.time}}</text>
+                </view>
+                <view  wx:for="{{item.info}}">
+                    <view><text class="text-xs text-gray-400">{{item}}</text></view>
+                </view>
+                <view class="mt-3 text-sm">
+                    <text class="text-red-400">Note:</text>
+                    <text class="text-gray-400">{{item.note}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

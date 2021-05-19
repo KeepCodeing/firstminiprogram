@@ -1,0 +1,9 @@
+<view class="h-full bg-white">
+    <company-introduction  />
+    <contact-introduction />
+    <services-introduction />
+    <customers-mark />
+    <projects-show />
+    <buy-services />
+    <news-show />
+</view>

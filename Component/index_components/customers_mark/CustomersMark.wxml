@@ -1,0 +1,21 @@
+<view class="min-h-screen bg-white py-5 px-3 box-border font-mono">
+    <view class="text-center">
+        <view><text class="text-xs text-blue-500 font-bold">Testimonial</text></view>
+        <view><text class="text-lg font-bold">Our customers says
+            somethings about us.</text></view>
+        <view><text class="text-gray-400 font-thin text-xs">Activate one page navigation on any page throughout your with the site.</text></view>
+    </view>
+    <view class="grid grid-cols-4 pt-3">
+        <image
+                style="height: 50px; width: 50px;"
+                wx:for="{{avatar}}"
+                src="{{item}}"
+                class=""
+        ></image>
+    </view>
+
+    <view  style="line-height: 17px;background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);" class="p-6 mt-5 shadow-lg">
+        <text class="text-white font-bold text-xs">Selection one page navigation on any page through with the selection one simple option the admin area doin this, you can create anything fromen simple streamlin homepages engag easily activate one page navigat any page throughout your site.
+        </text>
+    </view>
+</view>

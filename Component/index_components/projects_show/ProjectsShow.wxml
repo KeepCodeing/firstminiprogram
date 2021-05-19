@@ -1,0 +1,24 @@
+<view class="min-h-screen bg-blue-50 py-5 px-3 box-border font-mono">
+    <view class="text-center">
+        <view><text class="text-xs text-blue-500 font-bold">Our Portfolio</text></view>
+        <view><text class="text-lg font-bold">Awesome & exclusive project
+            that we worked.</text></view>
+        <view><text class="text-gray-400 font-thin text-xs">Activate one page navigation on any page throughout your with the selection and your site.</text></view>
+    </view>
+    <view>
+        <view class="bg-white m-6 rounded shadow-lg" wx:for="{{projects}}" wx:key="*item">
+            <view style="height: 200px;">
+                <image
+                        class="h-full w-full"
+                        src="{{item.img}}"></image>
+            </view>
+            <view class="p-3">
+                <view><text class="font-bold">{{item.title}}</text></view>
+                <view><text class="text-gray-300 text-sm font-light">{{item.info}}</text></view>
+            </view>
+        </view>
+    </view>
+    <view class="mt-3">
+        <button class="bg-blue-500 p-2 text-white">More</button>
+    </view>
+</view>
